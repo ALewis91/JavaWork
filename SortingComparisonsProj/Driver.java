@@ -1,3 +1,28 @@
+/*  Program:     Project 2
+    Author:      Aaron Lewis
+    Class:	     CSCI230 F
+    Date:	     04/20/2018
+    Description: Gather data on sorting algorithms
+    	including selection sort, insertion sort,
+    	quick sort, and merge sort. Collect number
+    	of key comparisons and data moves for each
+    	sorting of a list created from a data file.
+    	Compare both string and integer key values
+    	for each of the different algorithms and
+    	print to the file p2Results.txt.
+
+    I certify that the code below is my own work.
+	
+	Exception(s): N/A
+
+*/
+
+import java.util.Vector;
+import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+
 public class Driver 
 {
 	public static void main(String[] args) throws FileNotFoundException 
